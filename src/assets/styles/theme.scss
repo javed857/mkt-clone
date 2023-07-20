@@ -1,0 +1,14 @@
+$btnbluegradient: linear-gradient(180deg, #77DFF7 -57.61%, #5ABEF0 127.17%);;
+
+$whitecolor: #ffffff;
+
+$themeheadingblue : #64caf3;
+
+// import plugin css 
+// @import "~bootstrap/scss/bootstrap";
+// @import url("react-multi-carousel/lib/styles.css");
+// @import url("./fonts/font.css");
+@import "./common.scss";
+@import "./header.scss";
+@import "./flights.scss";
+// @import "./footer.scss";

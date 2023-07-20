@@ -1,0 +1,18 @@
+.header-section {
+    height: 5rem;
+    .top-menu {
+        .container-fluid {
+            .navbar-brand {
+                .nav-brand-logo {
+                    height: 50px;
+                }
+            }
+            .navbar-nav{
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+
+}

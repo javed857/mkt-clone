@@ -1,0 +1,68 @@
+.flights-wrapper {
+    .form-wrapper {
+        .form-container {
+            .trip-wrapper {
+                display: flex;
+
+                .trip-select-box-wrapper {
+                    width: 30%;
+                    margin-left: 15px;
+                }
+            }
+
+            .submit-btn-container {
+                display: flex;
+                justify-content: center;
+
+                .submit_btn {
+                    height: 30px;
+                    width: 100px;
+                    background-color: white;
+                    border: 1px solid black;
+                    border-radius: 5px;
+                    
+                }
+                .submit_btn:hover{
+                    background-color: #6366F1;
+                    border: 1px solid #6366F1;
+                    color: white;
+                    }
+            }
+        }
+    }
+
+    .card-wrapper{
+        .card {
+            background: var(--surface-card);
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+
+            .p-card {
+                .p-card-header{
+                    height: 0.5rem;
+                }
+                .p-card-body{
+                    padding: 0.6rem;
+                    .p-card-footer{
+                        .card-footer-container{
+                            display: flex;
+                            .view-btn-container{
+                                margin-right: 5px;
+                                button{
+                                    padding: 0.3rem 1.5rem;
+                                }
+                            }
+                            .confirm-btn-container{
+                                button{
+                                    padding: 0.3rem 0.8rem;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
